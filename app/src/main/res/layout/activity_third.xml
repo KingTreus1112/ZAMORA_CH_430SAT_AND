@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmation_title"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Name Label -->
+    <TextView
+        android:id="@+id/tvNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_label"
+        android:textSize="18sp"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Name Value -->
+    <TextView
+        android:id="@+id/tvNameValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/tvNameLabel"
+        android:layout_alignBaseline="@id/tvNameLabel"
+        android:layout_marginLeft="20dp"/>
+
+    <!-- Address Label -->
+    <TextView
+        android:id="@+id/tvAddressLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/address_label"
+        android:textSize="18sp"
+        android:layout_below="@id/tvNameLabel"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Address Value -->
+    <TextView
+        android:id="@+id/tvAddressValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/tvAddressLabel"
+        android:layout_alignBaseline="@id/tvAddressLabel"
+        android:layout_marginLeft="20dp"/>
+
+    <!-- Birthdate Label -->
+    <TextView
+        android:id="@+id/tvBirthdateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/birthdate_label"
+        android:textSize="18sp"
+        android:layout_below="@id/tvAddressLabel"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Birthdate Value -->
+    <TextView
+        android:id="@+id/tvBirthdateValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/tvBirthdateLabel"
+        android:layout_alignBaseline="@id/tvBirthdateLabel"
+        android:layout_marginLeft="20dp"/>
+
+    <!-- Mom's Name Label -->
+    <TextView
+        android:id="@+id/tvMomsNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/moms_name_label"
+        android:textSize="18sp"
+        android:layout_below="@id/tvBirthdateLabel"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Mom's Name Value -->
+    <TextView
+        android:id="@+id/tvMomsNameValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/tvMomsNameLabel"
+        android:layout_alignBaseline="@id/tvMomsNameLabel"
+        android:layout_marginLeft="20dp"/>
+
+    <!-- Dad's Name Label -->
+    <TextView
+        android:id="@+id/tvDadsNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dads_name_label"
+        android:textSize="18sp"
+        android:layout_below="@id/tvMomsNameLabel"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Dad's Name Value -->
+    <TextView
+        android:id="@+id/tvDadsNameValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/tvDadsNameLabel"
+        android:layout_alignBaseline="@id/tvDadsNameLabel"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>

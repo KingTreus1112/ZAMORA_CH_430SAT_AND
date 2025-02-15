@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MultiLayoutLoggerZamora</string>
+    <string name="welcome">Welcome to MyApp</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="submit">Submit</string>
+    <string name="welcome_user">Welcome, %1$s!</string>
+    <string name="error_empty_fields">Please enter email and password</string>
+
+    <string name="name_hint">Enter your name</string>
+    <string name="address_hint">Enter your address</string>
+    <string name="birthdate_hint">Enter your birthdate</string>
+    <string name="moms_name_hint">Enter your mothers name</string>
+    <string name="dads_name_hint">Enter your fathers name</string>
+
+    <string name="confirmation_message">Thank you, %1$s! Your form has been submitted successfully.</string>
+    <string name="confirmation_title">Form Submission Details</string>
+    <string name="name_label">Name:</string>
+    <string name="address_label">Address:</string>
+    <string name="birthdate_label">Birthdate:</string>
+    <string name="moms_name_label">Mothers Name:</string>
+    <string name="dads_name_label">Fathers Name:</string>
+</resources>
