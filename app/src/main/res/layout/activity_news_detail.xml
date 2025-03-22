@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            tools:text="Sample News Title" />
+
+        <!-- Content -->
+        <TextView
+            android:id="@+id/detail_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#444"
+            tools:text="Sample content for the news article..." />
+    </LinearLayout>
+</ScrollView>

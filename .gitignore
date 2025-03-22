@@ -1,0 +1,26 @@
+# Ignore Android Studio files
+.idea/
+.gradle/
+local.properties
+.DS_Store
+
+# Ignore build files
+/build/
+*.iml
+
+# Ignore generated files
+/captures/
+/outputs/
+/index/
+
+# Ignore Keystore files
+*.jks
+
+# Ignore log files
+*.log
+
+# Ignore Gradle files
+.gradle
+gradlew
+gradlew.bat
+build/
